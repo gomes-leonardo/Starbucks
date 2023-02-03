@@ -59,12 +59,17 @@ export const HeaderContainer = styled.div `
 }
 
 
+@media (min-width: 1434px){
 
+    justify-content: flex-start;
+    gap: 200px;
+}
 
 
 display:flex;
 color: white;
 flex-direction: row;
+
 justify-content: space-between;
 box-shadow: rgba(100, 100, 111, 0.2)  29px 0px;
 position: relative;
